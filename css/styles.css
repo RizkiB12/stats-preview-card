@@ -1,7 +1,17 @@
+:root {
+  --darkblue: hsl(233, 47%, 7%); /* main background*/
+  --desaturatedblue: hsl(244, 38%, 16%); /* card background */
+  --softviolet: hsl(277, 64%, 61%); /* soft violet */
+  --white: hsl(0, 0%, 100%); /* main heading, stats */
+  --transparentwhiteone: hsla(0, 0%, 100%, 0.75); /* main paragraph */
+  --transparentwhitetwo: hsla(0, 0%, 100%, 0.6); /* stat headings */
+}
+
 @import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css");
 html,
 body {
   height: 100%;
+  font-size: 15px;
 }
 
 .attribution {
